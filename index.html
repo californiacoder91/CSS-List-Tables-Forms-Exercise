@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>Lists, Tables, and Forms</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+
+	<body>
+		<h1>Poetry Workshops</h1>
+		<p>We will be conducting a number of poetry workshops and symposiums throughout the year. Please note that the following events are free to members:
+		<ul>
+			<li>A Poetic Perspective</li>
+			<li>Walt Whitman at War</li>
+			<li>Found Poems and Outsider Poetry</li>
+		</ul>
+
+		<table>
+
+			<tr>
+				<th scope = "col"></th>
+				<th scope = "col">New York</th>
+				<th scope = "col">Chicago</th>
+				<th scope = "col">San Francisco</th>
+			</tr>
+
+			<tr class = "alice">
+				<th scope = "row">A Poetic Perspective</th>
+				<td>Sat, 4 Feb 2012<br />11am - 2pm</td>
+				<td>Sat, 3 March 2012<br />11am - 2pm</td>
+				<td>Sat, 17 Mar 2012<br />11am - 2pm</td>
+			</tr>
+
+			<tr class = "lavender">
+				<th scope = "row">Walt Whitman at War</th>
+				<td>Sat, 7 Apr 2012<br />11am - 1pm</td>
+				<td>Sat, 5 May 2012<br />11am - 1pm</td>
+				<td>Sat, 19 May 2012<br />11am - 1pm</td>
+			</tr>
+
+			<tr class = "alice">
+				<th scope = "row">Found Poems &amp Outsider Poetry</th>
+				<td>Sat, 9 Jun 2012<br />11am - 2pm</td>
+				<td>Sat, 7 Jul 2012<br />11am - 2pm</td>
+				<td>Sat, 21 Jul 2012<br />11am - 2pm</td>
+			</tr>
+
+			<tr class = "lavender">
+				<th scope = "row">Natural Death: An Exploration</th>
+				<td>Sat, 4 Aug 2012<br />11am - 4pm</td>
+				<td>Sat, 8 Sep 2012<br />11am - 4pm</td>
+				<td>Sat, 15 Sep 2012</br />11am - 4pm</td>
+			</tr>
+
+		</table>
+
+
+		<form>
+			<fieldset>
+				<legend>Register your interest</legend>
+
+				<p>
+					<label>Your name:</label>
+					<input type = "text" name = "name"><br /><br />
+					<label>You email:</label>
+					<input type = "email" name = "email"><br />
+				</p>
+
+				<p>
+					<label>Your closest center:</label>
+					<select name = "cities">
+						<option value = "vacaville" selected="selected">Vacaville</option>
+						<option value = "sacramento">Sacramento</option>
+						<option value = "sanfran">San Francisco</option>
+						<option value = "novato">Novato</option>
+					</select>
+				</p>
+
+				<p>
+					<label>Are you a member?</label>
+					<input type = "radio" value = "yes">Yes
+					<input type = "radio" value = "no">No
+				</p>	
+
+		</fieldset>
+			<div class = "submit">
+				<input type = "submit" value = "Register">
+			</div>
+		</form>
+
+
+
+	</body>
+
+
+</html>

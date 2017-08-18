@@ -1,0 +1,112 @@
+body {
+	color: dimgrey;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 90%;
+}
+
+p, li {
+	
+	line-height: 1.5em;
+
+}
+
+li {
+	list-style-image: url("plusicon.jpg");
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 35px;
+}
+
+th[scope=col] { 
+	background-color: CornflowerBlue;
+	color: white;
+	font-size: 14px;
+	border-bottom: solid;
+	border-bottom-color: darkblue;
+	border-bottom-width: 2px;
+	border-right: solid;
+	border-right-color: darkgrey;
+	border-right-width: 1px;	
+	margin: 0px;
+}
+
+th[scope=col]:first-child {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-border-top-left-radius: 5px;
+}
+
+th[scope=col]:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-border-top-right-radius: 5px;
+	border-right: none;
+}
+
+th[scope=row] {
+	padding-right: 30px;
+	border-right: 1px solid darkgrey;
+	border-bottom: 1px solid darkgrey;
+}
+
+td:last-child {
+	border-right: none;
+}
+
+td {
+	padding-right: 30px;
+	font-size: 14px;
+	border-top: 1px solid darkgrey;
+	border-bottom: 1px solid darkgrey;
+	border-right: 1px solid darkgrey;
+	
+}
+
+.alice {
+	background-color: AliceBlue;
+}
+
+.lavender {
+	background-color: lavender;
+}
+
+fieldset {
+	width: 300px;
+	border: 1px solid #d6d6d6;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type ="email"], select {
+	width: 120px;
+	outline: none;
+	float: right;
+	padding: 2px;
+
+}
+
+input[type="submit"] {
+	text-align: right;
+	color: white;
+	background-color: green;
+	border-radius: 5px;
+	border-color: green;
+}
+
+.submit {
+	width: 326px;
+	text-align: right;
+	padding: 0px;
+}
+	
+
+
+
+
+
+
+
+
+
+
